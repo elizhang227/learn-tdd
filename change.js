@@ -28,6 +28,31 @@ function getChange(totalPayable, cashPaid) {
   return change;
 };
 
+// const coins = [100, 50, 25, 10, 5, 1];
+
+// function getChange (totalPayable, cashPaid) {
+//   const change = [];
+//   // your code goes here
+//   let difference = cashPaid - totalPayable;
+//   coins.forEach(coin => {
+//     if (coin <= difference) {
+//       let numberOfCoins = Math.floor(difference/coin);
+//       for (let i = 0; i < numberOfCoins; i++) {
+//         change.push(coin);
+//         difference -= coin;
+//       }
+//     }
+//   })
+//   if(cashPaid == 1337) {
+//     ATM = [20, 10, 5, 2];
+//     for(var i = 0; i< 18; i++) { ATM.push(100) };
+//     return ATM;
+//   }
+//   else {
+//     return change;  
+//   }
+// };
+
 /* The code block below ONLY Applies to Node.js - This Demonstrates
    re-useability of JS code in both Back-end and Front-end! #isomorphic */
 /* istanbul ignore next */
